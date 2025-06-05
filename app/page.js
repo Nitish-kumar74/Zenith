@@ -74,7 +74,8 @@ export default function Home() {
         </form>
 
         <div className="mt-8 text-sm text-white/70">
-          <p>Get exclusive recipes, chef's specials, and event invites</p>
+         <p>Get exclusive recipes, chef&rsquo;s specials, and event invites</p>
+
           <p className="mt-2 text-xs text-white/50">We respect your privacy. Unsubscribe anytime.</p>
         </div>
       </div>

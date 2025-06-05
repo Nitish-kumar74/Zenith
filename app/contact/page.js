@@ -71,7 +71,7 @@ const ContactPage = () => {
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-            <p className="text-xl">We'd love to hear from you</p>
+            <p className="text-xl">We&apos;d love to hear from you</p>
           </div>
         </div>
       </div>

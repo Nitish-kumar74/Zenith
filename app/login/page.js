@@ -120,13 +120,12 @@ export default function Login() {
             )}
           </button>
         </form>
-
-        <p className="mt-6 text-sm text-center text-gray-400">
-          Don't have an account?{" "}
-          <a href="/signup" className="text-amber-400 hover:underline">
-            Register here
-          </a>
-        </p>
+<p className="mt-6 text-sm text-center text-gray-400">
+  Don&apos;t have an account?{" "}
+  <a href="/signup" className="text-amber-400 hover:underline">
+    Register here
+  </a>
+</p>
       </div>
     </div>
   );
