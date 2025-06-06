@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 
 const Carousel = () => {
@@ -26,28 +26,28 @@ const Carousel = () => {
     }
   ];
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => 
       prevIndex === slides.length - 1 ? 0 : prevIndex + 1
     );
-  };
+  }, [slides.length]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => 
       prevIndex === 0 ? slides.length - 1 : prevIndex - 1
     );
-  };
+  }, [slides.length]);
 
-  const goToSlide = (index) => {
+  const goToSlide = useCallback((index) => {
     setCurrentIndex(index);
-  };
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
     }, 5000);
     return () => clearInterval(interval);
-  }, [currentIndex]);
+  }, [currentIndex, nextSlide]);
 
   return (
     <div className="relative w-full h-[70vh] overflow-hidden">
@@ -376,9 +376,7 @@ const Page = () => {
   return (
     <div className="overflow-x-hidden">
       <Carousel />
-      
       <MenuSection />
-      
       <AboutSection />
     </div>
   );

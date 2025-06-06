@@ -38,7 +38,7 @@ const AboutPage = () => {
               <h3 className="text-xl font-semibold mb-3 text-amber-800">Our Commitment</h3>
               <p className="text-gray-700">
                 We source 90% of our ingredients from local farms and purveyors, changing our menu quarterly 
-                to reflect what's fresh and in season.
+                to reflect what&apos;s fresh and in season.
               </p>
             </div>
           </div>
@@ -112,7 +112,7 @@ const AboutPage = () => {
 
       {/* Awards & Recognition */}
       <section className="py-16 px-4 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Awards & Recognition</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Awards &amp; Recognition</h2>
         
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 text-center">
@@ -123,14 +123,14 @@ const AboutPage = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 text-center">
             <div className="text-4xl text-amber-500 mb-3">Top 50</div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-800">World's Best Bars</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-800">World&apos;s Best Bars</h3>
             <p className="text-gray-600">Ranked #27 - 2023</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 text-center">
             <div className="text-4xl text-amber-500 mb-3">Best of</div>
             <h3 className="text-xl font-semibold mb-2 text-gray-800">City Eats Awards</h3>
-            <p className="text-gray-600">Best Restaurant & Bar - 2022, 2023</p>
+            <p className="text-gray-600">Best Restaurant &amp; Bar - 2022, 2023</p>
           </div>
         </div>
       </section>
@@ -162,7 +162,7 @@ const AboutPage = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="font-semibold mb-2">Bar & Lounge</h4>
+                <h4 className="font-semibold mb-2">Bar &amp; Lounge</h4>
                 <ul className="space-y-1">
                   <li>Tuesday - Sunday: 4:00PM - Midnight</li>
                   <li>Happy Hour: 4:00PM - 6:00PM</li>
